@@ -1,0 +1,17 @@
+body {
+    background-color: hsl(239, 86%, 35%);
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: hsl(160, 53%, 40%);
+    width: 1311px;
+    margin: 40px auto;
+}
+.comment {
+    background-color: hsl(0, 8%, 57%);
+    margin: 36px 313px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.commentDetails {
+    display: inline-block;
+}
