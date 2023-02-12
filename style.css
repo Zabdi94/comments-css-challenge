@@ -1,17 +1,30 @@
 body {
-    background-color: hsl(239, 86%, 35%);
+    background-color: hsl(240, 8%, 83%);
     font-family: 'Rubik';
     font-size: 16px;
-    color: hsl(160, 53%, 40%);
+    color: hsl(106, 14%, 68%);
     width: 1311px;
     margin: 40px auto;
 }
 .comment {
-    background-color: hsl(0, 8%, 57%);
+    background-color: hsl(0, 0%, 0%);
     margin: 36px 313px;
     padding: 20px;
     border-radius: 10px;
 }
 .commentDetails {
     display: inline-block;
+}
+.replyBtn {
+    border: 0px;
+    background-color: inherit;
+    margin: 8px 1px;
+    float: right;
+    color: hsl(238, 40%, 52%);
+}
+.replyBtn:hover {
+   opacity: .5;
+}
+.replyImg {
+    margin: 2px 7px;
 }
